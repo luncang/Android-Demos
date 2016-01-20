@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <charles_lun.loopview.view.MyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_center_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_centerInParent="true"
+        />
+
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_center_bottom_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_bottom_right_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_bottom_left_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_center_top_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+       />
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_center_top_right_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+    <charles_lun.loopview.indicator.AnimIndicator
+        android:id="@+id/default_center_top_left_indicator"
+        style="@style/AnimLineIndicator"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+</RelativeLayout>
